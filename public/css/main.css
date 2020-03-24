@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    overflow: hidden;
+    font-family: Verdana,  sans-serif;
+    line-height: 14px;
+    margin: 0;
+}
+.hero {
+    margin-bottom: 80px;
+}
+.login {
+    border: solid #ccc 1px;
+    width: 777px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.login p {
+    border-bottom: 20px solid #d6ebff;
+}
+
+.login p, label {
+    font-size: 10px;
+    font-weight: bold;
+    color: #424242
+}
+.border {
+    border-bottom: 30px solid #0c4270;
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+}
+.user {
+    border-bottom: 2px solid #ccc;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+.auth {
+    border-bottom: 5px solid #ccc;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+.send {
+    color: #0c4270; 
+    text-align: right;
+}
+input {
+    margin-left: 120px;
+}
+.separator {
+    height: 2px;
+}
+.login p {
+    font-size: 10px;
+    line-height: 14px;
+}

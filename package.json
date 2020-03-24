@@ -1,0 +1,24 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "A mailer app",
+  "main": "index.js",
+  "engines": {
+    "node": "9.4.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kali Jones",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.18.2",
+    "connect": "^3.6.5",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.4.2"
+  },
+  "devDependencies": {}
+}
